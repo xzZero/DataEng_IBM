@@ -1,12 +1,9 @@
 ## Answers for peer-reviewed assigment
 1. Question 1 Load the file 'exchange_rates.csv'. Find the exchange rate for Great British Pounds with the symbol GBP, and enter the numeric value.\
     0.7323984208000001
-2. Question 2 Use the function extract(), and print the first 5 rows of the output. Take and upload  a screenshot of the output.
-   - Data Ingestion Layer
-   - ​Data Storage Layer
-   - Data Processing Layer
-   - User Interface Layer
-   - Data Pipeline Layer
+2. Question 2 Use the function extract(), and print the first 5 rows of the output. Take and upload  a screenshot of the output.\
+Answer: \
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/3%20-%20Python%20Project%20for%20data%20engineer/Week%201/Extract.PNG "Extract")
 3. List two factors that you would consider in order to make a
 decision about the type of data store that meets your organization’s needs for a particular implementation. 
     - Type of the data
