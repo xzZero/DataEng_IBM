@@ -37,7 +37,7 @@ Tech: Cloudant, MongoDB, Cassandra
 - Task 10. Write a query to find out the average votes for movies released in 2007. (2 pts)\
 ![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/10%20-%20Introduction%20to%20NoSQL%20Databases/Week5/10-mongo-query.PNG "10")
 - Task 11 - Export the fields _id, title, year, rating and director from movies collection into a file named partial_data.csv. (2 pts)\
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/10%20-%20Introduction%20to%20NoSQL%20Databases/Week5/11-mongoexport.PNG "11")\
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/10%20-%20Introduction%20to%20NoSQL%20Databases/Week5/11-mongoexport.PNG "11")
 - Task 12 - Import partial_data.csv into cassandra server into a keyspace named entertainment and table named movies. (1 pts) \
 ![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/10%20-%20Introduction%20to%20NoSQL%20Databases/Week5/12-cassandra-import.png "12")
 - Task 13 - Write a cql query to count the number of rows in the movies table. (1 pts) \
