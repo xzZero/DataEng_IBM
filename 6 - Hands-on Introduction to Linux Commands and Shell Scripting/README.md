@@ -89,3 +89,5 @@ crontab -e
 ```
 Edit the crontab editor as follow to schedule the backup task to run every 24h\
 ![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%205/9.PNG "Task 9")
+
+## [Cron Cheatsheet](https://devhints.io/cron) 
