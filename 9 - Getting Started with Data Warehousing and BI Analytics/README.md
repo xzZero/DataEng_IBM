@@ -8,7 +8,7 @@ In this project, you will act as a data engineer hired by a solid waste manageme
 - total waste collected per trucktype per city
 - total waste collected per trucktype per station per city
 
-More information about [tasks]()
+More information about [tasks](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/Task.pdf)
 ### Objectives
 - Design a Data Warehouse
 - Load data into Data Warehouse
@@ -18,48 +18,51 @@ More information about [tasks]()
 
 ### Data
 The Data Warehouse have to be designed to fit with the sample data below:\
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/dag_args.PNG "1.1")\
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/solid-waste-trips-new.png "solid-waste-trips-new")\
 Note that the Data Warehouse should be in snowflake schema for write-efficient.
 
 ## Tasks and Solutions
 - Task 1: Design the dimension table MyDimDate (2 pts) \
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/dag_args.PNG "1.1")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/1.PNG "1")
 - Task 2: Design the dimension table MyDimWaste (1 pt) \
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/dag_definition.PNG "dag_definition")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/2.PNG "2")
 - Task 3: Design the dimension table MyDimZone (1 pt) \
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/unzip_data.PNG "unzip_data")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/3.PNG "3")
 - Task 4: Design the fact table MyFactTrips (2 pts) \
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/extract_data_from_csv.PNG "extract_data_from_csv")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/4.PNG "4")
 - Task 5: Create the dimension table MyDimDate (2 pts) \
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/extract_data_from_tsv.PNG "extract_data_from_tsv")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/5.PNG "5")
 - Task 6: Create the dimension table MyDimWaste  (1 pt) \
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/extract_data_from_fixed_width.PNG "extract_data_from_fixed_width")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/6.PNG "6")
 - Task 7: Create the dimension table MyDimZone (1 pt) \
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/consolidate_data.PNG "consolidate_data")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/7.PNG "7")
 - Task 8: Create the fact table MyFactTrips (2 pts) \
-For this task, we can use the SELECT function to query the size of the database from information_schema.tables or using the show table status\
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/transform.PNG "transform")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/8.PNG "8")
 - Task 9: Load data into the dimension table DimDate (1 pt) \
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/task_pipeline.PNG "task_pipeline")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/9a.PNG "9a")\
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/9b.PNG "9b")
 - Task 10: Load data into the dimension table DimTruck (1 pt)\
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/submit_dag.PNG "submit_dag")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/10a.PNG "10a")\
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/10b.PNG "10b")
 - Task 11: Load data into the dimension table DimStation (1 pt)\
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/unpause_dag.PNG "unpause_dag")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/11a.PNG "11a")\
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/11b.PNG "11b")
 - Task 12: Load data into the fact table FactTrips (1 pt) \
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/monitor_dag.PNG "monitor_dag")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/12a.PNG "12a")\
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/12b.PNG "12b")
 - Task 13: Create a grouping sets query (2 pts) \
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/start_zookeeper.PNG "start_zookeeper")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/13.PNG "13")
 - Task 14: Create a rollup query (2 pts ) \
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/start_kafka.PNG "start_kafka")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/14.PNG "14")
 - Task 15: Create a cube query using the columns year, city, station, average waste collected (2 pts ) \
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/create_toll_topic.PNG "create_toll_topic")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/15.PNG "15")
 - Task 16: Create an MQT named max_waste_per_station using the columns city, station, trucktype, max waste collected  (2 pts)\
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/download_simulator.PNG "download_simulator")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/16.PNG "16")
 - Task 17: Create a pie chart in the dashboard (1 pt) \
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/configure_simulator.PNG "configure_simulator")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/17.PNG "17")
 - Task 18: Create a bar chart in the dashboard (1 pt) \
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/simulator_output.PNG "simulator_output")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/18.PNG "18")
 - Task 19: Create a line chart in the dashboard (1 pt) \
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/streaming_reader_code.PNG "streaming_reader_code")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/19.PNG "19")
 - Task 20: Create a pie chart in the dashboard (1 pt) \
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/8%20-%20ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Week5/data_reader_output.PNG "data_reader_output")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/20.PNG "20")
