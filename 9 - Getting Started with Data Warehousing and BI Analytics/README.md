@@ -66,3 +66,5 @@ Note that the Data Warehouse should be in snowflake schema for write-efficient.
 ![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/19.PNG "19")
 - Task 20: Create a pie chart in the dashboard (1 pt) \
 ![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/20.PNG "20")
+
+The full version of the dashboard is [here](https://github.com/xzZero/DataEng_IBM/blob/main/9%20-%20Getting%20Started%20with%20Data%20Warehousing%20and%20BI%20Analytics/Week4/Report.pdf)
