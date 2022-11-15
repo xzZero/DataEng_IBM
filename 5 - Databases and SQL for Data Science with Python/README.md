@@ -9,26 +9,26 @@ This task involves 3 datasets for the city of Chicago obtained from the Chicago 
 
 The tasks are follows: 
 - Load the .csv data to the database (I used SQLite database here to diverisify the RDBMS)
-- Problem 1: Find the total number of crimes recorded in the CRIME table.
-
-- Problem 2: List community areas with per capita income less than 11000.
-
-- Problem 3: List all case numbers for crimes involving minors?
-
-- Problem 4: List all kidnapping crimes involving a child?(children are not considered minors for the purposes of crime analysis)
-
-- Problem 5: What kind of crimes were recorded at schools?
-
-- Problem 6: List the average safety score for all types of schools.
-
-- Problem 7: List 5 community areas with highest % of households below poverty line.
-
-- Problem 8: Which community area(number) is most crime prone?
-
-- Problem 9: Use a sub-query to find the name of the community area with highest hardship index.
-
-- Problem 10: Use a sub-query to determine the Community Area Name with most number of crimes?
-
+- Problem 1: Find the total number of crimes recorded in the CRIME table.\
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%205/1.PNG "Task 1")
+- Problem 2: List community areas with per capita income less than 11000.\
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%205/2.PNG "Task 2")
+- Problem 3: List all case numbers for crimes involving minors?\
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%205/3.PNG "Task 3")
+- Problem 4: List all kidnapping crimes involving a child?(children are not considered minors for the purposes of crime analysis)\
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%205/4.PNG "Task 4")
+- Problem 5: What kind of crimes were recorded at schools?\
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%205/5.PNG "Task 5")
+- Problem 6: List the average safety score for all types of schools.\
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%205/6.PNG "Task 6")
+- Problem 7: List 5 community areas with highest % of households below poverty line.\
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%205/7.PNG "Task 7")
+- Problem 8: Which community area(number) is most crime prone?\
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%205/8.PNG "Task 8")
+- Problem 9: Use a sub-query to find the name of the community area with highest hardship index.\
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%205/9.PNG "Task 9")
+- Problem 10: Use a sub-query to determine the Community Area Name with most number of crimes?\
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%205/10.PNG "Task 10")
 ## Answers for peer-reviewed assigment
 1. Task 1: Submit the list of entities that you identified as part of Task 1. \
 Answer: 
