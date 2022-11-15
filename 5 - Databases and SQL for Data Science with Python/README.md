@@ -93,21 +93,21 @@ This task involves 3 datasets for the city of Chicago obtained from the Chicago 
 
 The tasks are follows: 
 - Load the .csv data to the database (I used PostgreSQL database here to diverisify the RDBMS)
-- Exercise 1: Using joins\
-    - Question 1: Write and execute a SQL query to list the school names, community names and average attendance for communities with a hardship index of 98.
+- Exercise 1: Using joins
+    - Question 1: Write and execute a SQL query to list the school names, community names and average attendance for communities with a hardship index of 98.\
 ![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%206/1.1.PNG "Q1.1")
-    - Question 2: Write and execute a SQL query to list all crimes that took place at a school. Include case number, crime type and community name.
+    - Question 2: Write and execute a SQL query to list all crimes that took place at a school. Include case number, crime type and community name.\
 ![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%206/1.2.PNG "Q1.2")
-- Exercise 2: Creating a View \
-    - Question 1: Write and execute a SQL statement that returns just the school name and leaders rating from the view.
+- Exercise 2: Creating a View
+    - Question 1: Write and execute a SQL statement that returns just the school name and leaders rating from the view.\
 ![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%206/2.PNG "Q2")
-- Exericise 3: Creating a Stored Procedure\
+- Exericise 3: Creating a Stored Procedure
     - Question 1: Write the structure of a query to create or replace a stored procedure called UPDATE_LEADERS_SCORE that takes a in_School_ID parameter as an integer and a in_Leader_Score parameter as an integer. Don't forget to use the #SET TERMINATOR statement to use the @ for the CREATE statement terminator.\
 ![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%206/3.1.PNG "Q3.1")
     - Question 2: Inside your stored procedure, write a SQL statement to update the Leaders_Score field in the CHICAGO_PUBLIC_SCHOOLS table for the school identified by in_School_ID to the value in the in_Leader_Score parameter.\
 ![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%206/3.2.PNG "Q3.2")
     - Question 3: Inside your stored procedure, write a SQL IF statement to update the Leaders_Icon field in the CHICAGO_PUBLIC_SCHOOLS table for the school identified by in_School_ID using the following information.\
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%206/procedure_question.PNG "procedure_question")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%206/procedure_question.PNG "procedure_question")\
 ![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%206/3.3.PNG "Q3.3")
     - Question 4: Run your code to create the stored procedure. \
 ![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/5%20-%20Databases%20and%20SQL%20for%20Data%20Science%20with%20Python/Week%206/3.4.PNG "Q3.4")
