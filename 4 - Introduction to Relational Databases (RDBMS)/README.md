@@ -15,12 +15,13 @@ The [tasks]() are follows:
 
 ## Answers for peer-reviewed assigment
 1. Task 1: Submit the list of entities that you identified as part of Task 1. 
+Answer: \
 - staff
 - sales_outlet
 - sales_transaction
 - customer
 - product
-2. Task 2: Submit the list of attributes that you identified as part of Task 2. \
+2. Task 2: Submit the list of attributes that you identified as part of Task 2. \ 
 Answer: \
 - sales_transaction: transaction_id, transaction_time, sales_outlet_id, staff_id, customer_id, product_id, quantity, price
 
