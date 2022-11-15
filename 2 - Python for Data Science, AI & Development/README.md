@@ -1,0 +1,2 @@
+## Description
+Because the workload of this section is large, the assignment is made independent - [Section 3](https://github.com/xzZero/DataEng_IBM/tree/main/3%20-%20Python%20Project%20for%20data%20engineer)
