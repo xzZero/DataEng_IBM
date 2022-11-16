@@ -23,8 +23,8 @@ There are 13 courses throughout the specialization and a capstone project at the
 
 ## Certificates
 - IBM Data Engineering Foundations
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/12%20-%20Data%20Engineering%20and%20Machine%20Learning%20using%20Spark/Week3/1-import-library.png "1")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/Certificates/Foundations.png)
 - IBM Data Warehouse Engineer Proffesional
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/12%20-%20Data%20Engineering%20and%20Machine%20Learning%20using%20Spark/Week3/1-import-library.png "1")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/Certificates/DataWarehousing.png)
 - IBM Data Engineering Proffesional
-![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/12%20-%20Data%20Engineering%20and%20Machine%20Learning%20using%20Spark/Week3/1-import-library.png "1")
+![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/Certificates/Professional.png)
