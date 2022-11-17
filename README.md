@@ -21,6 +21,16 @@ There are 13 courses throughout the specialization and a capstone project at the
 12. Data Engineering and Machine Learning using Spark
 13. Data Engineering Capstone Project
 
+## Tools and Technologies
+- OLTP database - MySQL
+- NoSql database - MongoDB
+- Production Data warehouse – DB2 on Cloud
+- Staging - Data warehouse – PostgreSQL
+- Big data platform - Hadoop
+- Big data analytics platform – Spark
+- Business Intelligence Dashboard - IBM Cognos Analytics
+- Data Pipelines - Apache Airflow
+
 ## Certificates
 - IBM Data Engineering Foundations
 ![alt text](https://github.com/xzZero/DataEng_IBM/blob/main/Certificates/Foundations.png)
