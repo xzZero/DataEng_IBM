@@ -1,6 +1,6 @@
 # DataEng_IBM
 ## Description
-In this repo, I recap my solutions for the assignments for the 54-week IBM Data Engineering Professional Specialization on Coursera that I have done in less than 3 weeks. The specialization contains:
+In this repo, I recap my solutions for the assignments for the 15-month IBM Data Engineering Professional Specialization on Coursera that I have done in less than 3 weeks. The specialization contains:
 - Create, design, and manage relational databases and apply database administration (DBA) concepts to RDBMSes such as MySQL, PostgreSQL, and IBM Db2. 
 - Develop and execute SQL queries using SELECT, INSERT, UPDATE, DELETE statements, database functions,  stored procedures, Nested Queries, and JOINs. 
 - Demonstrate working knowledge of NoSQL & Big Data using MongoDB, Cassandra, Cloudant, Hadoop, Apache Spark, Spark SQL, Spark ML, Spark Streaming. 
