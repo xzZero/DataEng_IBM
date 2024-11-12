@@ -1,4 +1,4 @@
-# DataEng_IBM
+# IBM Data Engineering Professional Specialization - Coursera
 ## Description
 In this repo, I recap my solutions for the assignments for the 15-month IBM Data Engineering Professional Specialization on Coursera that I have done in less than 3 weeks. The specialization contains:
 - Create, design, and manage relational databases and apply database administration (DBA) concepts to RDBMSes such as MySQL, PostgreSQL, and IBM Db2. 
